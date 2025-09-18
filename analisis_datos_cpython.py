@@ -31,3 +31,6 @@ cpython["author"].value_counts().head(10).plot(kind = "barh", color = "skyblue")
 plt.gca().invert_yaxis()
 plt.savefig("cpython_top10_developers.png", dpi = 300)
 plt.show()
+
+
+# Esta linea es agregada en un notebook de kaggle
